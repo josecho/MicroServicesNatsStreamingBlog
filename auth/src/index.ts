@@ -4,6 +4,7 @@ import { json } from 'body-parser';
 const app = express();
 app.use(json());
 
+//before google cloud
 // ticketing.dev/api/users/currentuser
 app.get('/api/users/currentuser', (req, res) => {
   res.send('Hi there!');
