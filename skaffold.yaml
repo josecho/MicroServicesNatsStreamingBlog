@@ -7,8 +7,10 @@ deploy:
 build:
   local:
     push: false
+  googleCloudBuild:
+    projectId: ticketing-dev-361710
   artifacts:
-    - image: cygnetops/auth
+    - image: us.gcr.io/ticketing-dev-361710/auth
       context: auth
       docker:
         dockerfile: Dockerfile
