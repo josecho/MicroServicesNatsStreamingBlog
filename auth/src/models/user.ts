@@ -24,6 +24,8 @@ const userSchema = new mongoose.Schema({
   },
 });
 
+// After adding this static method, we resolved issue #1, Typescript wants to make
+// sure we are providing the correct properties
 userSchema.statics.build = (attrs: UserAttrs) => {
   return new User(attrs);
 };
