@@ -14,4 +14,4 @@ https://github.blog/2016-02-01-working-with-submodules/
 
 - Joining a project using submodules
 
-git clone --recursive <project url>
+git clone --recursive [project url]
