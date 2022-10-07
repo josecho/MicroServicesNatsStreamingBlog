@@ -2,7 +2,7 @@
 
 - Post blog associates:
 
-https://jlvbcoop.com/en/dev-google-cloud/
+https://jlvbcoop.com/en/error-handling/
 
 [submodule "common"]
 
