@@ -30,3 +30,10 @@ npm run publish
 rs
 
 npm run listen
+
+
+# MSNatsStreamCommon
+
+Common module
+
+https://github.com/josecho/MSNatsStreamCommon-
