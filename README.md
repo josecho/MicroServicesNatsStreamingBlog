@@ -25,5 +25,8 @@ kubectl port-forward nats-depl-NAME 4222:4222
 kubectl port-forward nats-depl-NAME 8222:8222
 
 cd /nat-test
+
 npm run publish
+rs
+
 npm run listen
