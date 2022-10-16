@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import express, { Request, Response } from 'express';
-import { requireAuth, validateRequest } from '@jlvbcooptickets/common';
+import { requireAuth, validateRequest, NotFoundError } from '@jlvbcooptickets/common';
 import { body } from 'express-validator';
 import { Ticket } from '../models/ticket';
 import { Order } from '../models/order';
