@@ -3,6 +3,7 @@
 - Post blog associates:
 
 https://jlvbcoop.com/en/error-handling/
+https://jlvbcoop.com/en/singleton-pattern/
 
 [submodule "common"]
 
@@ -19,9 +20,12 @@ git clone --recursive [project url]
 
 RUN COMMANDS:
 
-PORT FORWARD:
+Port forward:
+
 kubectl get pods
+
 kubectl port-forward nats-depl-NAME 4222:4222
+
 kubectl port-forward nats-depl-NAME 8222:8222
 
 cd /nat-test
