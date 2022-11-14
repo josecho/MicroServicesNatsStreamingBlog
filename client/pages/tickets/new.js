@@ -13,6 +13,7 @@ const NewTicket = () => {
 
         setPrice(value.toFixed(2));
     };
+    
     return (
         <div>
             <h1>Create a Ticket</h1>
