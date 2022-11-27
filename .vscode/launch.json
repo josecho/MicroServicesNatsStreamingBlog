@@ -1,9 +1,5 @@
 {
     "configurations": [
-        
-
-
-        
         {
             "name": "Kubernetes: Run/Debug",
             "type": "cloudcode.kubernetes",
@@ -33,6 +29,27 @@
                     "containerName": "auth",
                     "sourceFileMap": {
                         "${workspaceFolder}/auth": "/app"
+                    }
+                },
+                {
+                    "image": "us.gcr.io/ticketing-dev-361710/expiration",
+                    "containerName": "expiration",
+                    "sourceFileMap": {
+                        "${workspaceFolder}/expiration": "/app"
+                    }
+                },
+                {
+                    "image": "us.gcr.io/ticketing-dev-361710/payments",
+                    "containerName": "payments",
+                    "sourceFileMap": {
+                        "${workspaceFolder}/payments": "/app"
+                    }
+                },
+                {
+                    "image": "us.gcr.io/ticketing-dev-361710/tickets",
+                    "containerName": "tickets",
+                    "sourceFileMap": {
+                        "${workspaceFolder}/tickets": "/app"
                     }
                 }
             ]
